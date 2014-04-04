@@ -34,6 +34,53 @@ h2{
   display: inline;
 }
 
+h3,h4{
+  font-size:1em;
+  line-height: 1.3em;
+  margin:0;
+}
+
+.Title{
+  color: #f90;
+  font-weight: bold;
+}
+
+.Agency{
+  font-weight: normal;
+  color: #8FC700;
+  padding-top: 0.7em;
+}
+
+.description{
+  color: #444;
+  font-weight: normal;
+  margin-bottom: 4em;
+}
+
+.duration{
+  color: #aaa;
+  font-weight: normal;
+  text-align: right;
+}
+
+.skill-overview{
+  margin-bottom: 10em;
+}
+
+.skill-catogory{
+  font-weight: bold;
+  color: #f90;
+}
+
+.contact-form form .alpha{
+  color: #444;
+}
+
+.contact-info #name{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 
 /* header */
 
@@ -88,6 +135,52 @@ header{
   background: url(img/profile.jpg) 50% 50% no-repeat;
 }
 
+.description ul{
+  list-style: none;
+  padding-left: 1em;
+}
+
+.description ul li{
+  margin-bottom: 1em;
+  padding-left: 1em;
+  border-left: 1px #8FC700 solid;
+}
+
+.skill-overview ul{
+  list-style: none;
+  margin-top: 0;
+}
+
+.skill-overview ul li{
+  font-weight: normal;
+  color: #fff;
+  width:10em;
+  background: #8FC700;
+  border-radius: 1em;
+  margin-bottom: 0.7em;
+}
+
+.gra-design li:nth-child(1){ padding: 0.2em 11em 0.2em 0.7em; background-color: #496500}
+.gra-design li:nth-child(2){ padding: 0.2em 15em 0.2em 0.7em; background-color: #2c3e00;}
+.gra-design li:nth-child(3){ padding: 0.2em 10em 0.2em 0.7em; background-color: #577900;}
+
+.new-media-art li:nth-child(1){ padding: 0.2em 8em 0.2em 0.7em; background-color: #73a000;}
+.new-media-art li:nth-child(2){ padding: 0.2em 5em 0.2em 0.7em; }
+.new-media-art li:nth-child(3){ padding: 0.2em 5em 0.2em 0.7em; }
+.new-media-art li:nth-child(4){ padding: 0.2em 8em 0.2em 0.7em; background-color: #73a000;}
+
+.programming li:nth-child(1){ padding: 0.2em 5em 0.2em 0.7em;}
+.programming li:nth-child(2){ padding: 0.2em 5em 0.2em 0.7em;}
+.programming li:nth-child(3){ padding: 0.2em 7em 0.2em 0.7em; background-color: #81b300;}
+.programming li:nth-child(4){ padding: 0.2em 10em 0.2em 0.7em; background-color: #577900;}
+.programming li:nth-child(5){ padding: 0.2em 7em 0.2em 0.7em; background-color: #81b300;}
+
+.language li:nth-child(1){ padding: 0.2em 17em 0.2em 0.7em; background-color: #1e2a00;}
+.language li:nth-child(2){ padding: 0.2em 11em 0.2em 0.7em; background-color: #496500;}
+.language li:nth-child(3){ padding: 0.2em 11em 0.2em 0.7em; background-color: #496500;}
+.language li:nth-child(4){ padding: 0.2em 4em 0.2em 0.7em; background-color: #9ddb00; margin-bottom: 3.3em;}
+
+
 .introduction{
   padding-top: 3em;
   line-height: 1.7em;
@@ -120,18 +213,16 @@ header{
   cursor: pointer;
 }
 
-
 .btn a:hover,
 .contact-form input[type=submit]:hover{
   background-color: #f90;
   border-color: #f90;
 }
 
-
 .contact-form form .grid_4:first-child{
-  margin-right: -10px;
-  padding-left: 9px;
-  border-left: #8FC700 1px solid;
+  margin-right: -1em;
+  padding-left: 0.9em;
+  border-left: #8FC700 0.1em solid;
 }
 
 .contact-form form .grid_16{
@@ -150,6 +241,20 @@ header{
   font-size: 1em;
 }
 
+.contact-info ul{
+  list-style: none;
+  padding-left: 0.9em;
+  border-left: #8FC700 0.1em solid;
+}
+
+.contact-info ul li{
+  margin-bottom: 1em;
+}
+
+.contact-info i{
+  color: #8FC700;
+  display: block;
+}
 
 /* footer */
 footer{
