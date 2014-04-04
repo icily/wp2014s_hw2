@@ -4,6 +4,11 @@ body{
     margin: 0;
 }
 
+::selection {
+  background: #fe0;
+  color: #000;
+}
+
 /* typography */
 
 body{
@@ -12,9 +17,21 @@ body{
 
 h1{
   font-family: 'Gudea', sans-serif;
-  font-size: 1em;
+  font-size: 1.3em;
+  line-height: 1em;
   margin: 0;
   padding: 0;
+}
+
+h2{
+  font-family: 'Gudea', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0;
+  padding: 3px;
+  border-bottom: 1px #f90 solid;
+  display: inline;
 }
 
 
@@ -81,9 +98,17 @@ header{
 }
 
 .btn{
-  padding-top: 1em;
+  padding-top: 1.3em;
 }
-.btn a{
+
+.contact-form input[type=submit]{
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Crete Round', serif;
+}
+
+.btn a, 
+.contact-form input[type=submit]{
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -92,12 +117,39 @@ header{
   padding: 0 1em 0 1em;
   border-radius: 1em;
   margin-right: 0.7em;
+  cursor: pointer;
 }
 
-.btn a:hover{
-  background-color: #fa0;
-  border-color: #fa0;
+
+.btn a:hover,
+.contact-form input[type=submit]:hover{
+  background-color: #f90;
+  border-color: #f90;
 }
+
+
+.contact-form form .grid_4:first-child{
+  margin-right: -10px;
+  padding-left: 9px;
+  border-left: #8FC700 1px solid;
+}
+
+.contact-form form .grid_16{
+  margin-top: 1em;
+}
+
+.contact-form input[type=text],
+.contact-form select,
+.contact-form textarea{
+  width: 25em;
+  padding: 3px;
+  background: #fff;
+  border: 1px #ccc solid;
+  outline: none;
+  font-family: 'Crete Round', serif;
+  font-size: 1em;
+}
+
 
 /* footer */
 footer{
